@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  site-1:
+    image: cars
+    ports:
+      - 80:3000
+
+  site-2:
+    image: restaurants
+    ports:
+      - 80:3000
